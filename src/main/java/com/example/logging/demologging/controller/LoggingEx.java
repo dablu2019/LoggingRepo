@@ -13,6 +13,7 @@ public class LoggingEx {
 	public String HiMesg() {
 		logger.info("hii");
 		logger.warn("good");
+		logger.error("hello");
 		return "Good morning";
 	}
 
